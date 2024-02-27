@@ -14,6 +14,7 @@ img {
 }
 
 
+
 @font-face {
     font-family: "roboto--bold";
     src: url(./fonts/Roboto-Bold.ttf);
@@ -51,7 +52,7 @@ img {
     align-items: center;
 }
 
-.b-main__figure {
+.b-main__watch {
     height: 100%;
     width: 50%;
     display: flex;
@@ -60,20 +61,20 @@ img {
     align-items: center;
 }
 
-.b-main__info__figcap {
+.b-caja1 {
     padding: 0px 30px;
 }
 
-.b-img--iconXS {
+.b-img__icon {
     width: 140px;
 }
 
-.b--hXL {
+.b--slogan {
     font-size: 43px;
     text-align: center;
 }
 
-.b-img--XL {
+.b-img--watch {
     height: 95%;
     object-fit: cover;
 }
@@ -83,7 +84,7 @@ img {
     text-align: center;
 }
 
-.b-a--style01 {
+.b-txt {
     background-color: #0171e3;
     padding: 10px 15px;
     border-radius: 999px;
@@ -91,23 +92,21 @@ img {
     color: white;
 }
 
-.b-bttn--style01 {
+.b-boton {
     border: none;
     color: #0171e3;
     font-size: 22px;
     background-color: transparent;
+    padding-left: 20px;
 }
 
-.u-padd-tb20 {
+.b-price {
     padding: 20px 0px;
 }
 
-.u-pdd-t15 {
+.b-caja2 {
     padding-top: 15px;
-}
 
-.u-pdd-l20 {
-    padding-left: 20px;
 }
 
 .b-main__info__link {
