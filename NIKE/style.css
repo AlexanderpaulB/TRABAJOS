@@ -1,0 +1,60 @@
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "arial";
+    margin: 7px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.b_galeria_caja {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 7px;
+}
+
+.b_tarjeta__dunk {
+    height: 550px;
+    width: calc(33% - 20px);
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.b_img__dunk {
+    height: 70%;
+    object-fit: cover;
+    background-color: #e9e9e9;
+}
+
+.b_tarjeta__content {
+    width: 100%;
+    background-color: white;
+    padding: 15px 0px;
+}
+
+.b_tarjeta__special {
+    color: #5F2106;
+    font-weight: 600;
+}
+
+.b_text {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.b-text__p {
+    font-size: 18px;
+    font-weight: 500;
+    color: grey;
+}
